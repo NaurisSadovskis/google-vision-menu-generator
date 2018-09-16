@@ -3,12 +3,13 @@
 This calls Google Vision API using local image file and obtains a list of labels. It then uses top label to construct a menu.
 
 **Note**: First 1'000 API calls are free, you are charged $1.50 per 1'000 calls afterwards. 
+**Note**: This is not a serious project. 
 
 ## Build & Run
 
 Initialise dependencies:
 ```
-$ make dep
+$ make get-dependencies
 ```
 
 Set your credentials file:
